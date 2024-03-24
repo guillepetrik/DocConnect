@@ -1,0 +1,384 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "002.20230804172031",
+      "schemaName": "specialties",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "001.20230804164825",
+          "description": "DSR-33 Added Specialties Table ",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V001_20230804164825__DSR-33 Added Specialties Table .sql",
+          "executionTime": 105
+        },
+        {
+          "category": "Versioned",
+          "version": "002.20230804172031",
+          "description": "Added SQL Tables for AspNet Users",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V002_20230804172031__Added SQL Tables for AspNet Users.sql",
+          "executionTime": 662
+        },
+        {
+          "category": "Repeatable",
+          "version": "",
+          "description": "Inserts Specialties Table Mock Values",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\R__Inserts Specialties Table Mock Values.sql",
+          "executionTime": 5
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `specialties` may not be reproducible."
+      ],
+      "timestamp": "2023-08-07T00:24:02.984408",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "002.20230804172031",
+      "targetSchemaVersion": "003.20230807140320",
+      "schemaName": "specialties",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "003.20230807140320",
+          "description": "DSR-34 Grant Initial Privileges to Read and Write Roles",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V003_20230807140320__DSR-34 Grant Initial Privileges to Read and Write Roles.sql",
+          "executionTime": 220
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `specialties` may not be reproducible."
+      ],
+      "timestamp": "2023-08-08T00:26:36.292113900",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "003.20230807140320",
+      "targetSchemaVersion": null,
+      "schemaName": "specialties",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `specialties` may not be reproducible."
+      ],
+      "timestamp": "2023-08-08T01:09:24.293599500",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "003.20230807140320",
+      "schemaName": "doc_connect_db",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "001.20230804164825",
+          "description": "DSR-33 Added Specialties Table ",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V001_20230804164825__DSR-33 Added Specialties Table .sql",
+          "executionTime": 143
+        },
+        {
+          "category": "Versioned",
+          "version": "002.20230804172031",
+          "description": "Added SQL Tables for AspNet Users",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V002_20230804172031__Added SQL Tables for AspNet Users.sql",
+          "executionTime": 1174
+        },
+        {
+          "category": "Versioned",
+          "version": "003.20230807140320",
+          "description": "DSR-34 Grant Initial Privileges to Read and Write Roles",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V003_20230807140320__DSR-34 Grant Initial Privileges to Read and Write Roles.sql",
+          "executionTime": 225
+        },
+        {
+          "category": "Repeatable",
+          "version": "",
+          "description": "Inserts Specialties Table Mock Values",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\R__Inserts Specialties Table Mock Values.sql",
+          "executionTime": 12
+        }
+      ],
+      "migrationsExecuted": 4,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `doc_connect_db` may not be reproducible."
+      ],
+      "timestamp": "2023-08-08T08:30:37.656592800",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "003.20230807140320",
+      "targetSchemaVersion": "005.20230811131217",
+      "schemaName": "doc_connect_db",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "004.20230810124138",
+          "description": "DSR-83 Doctors, Ratings, Locations \u0026 Countries table",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V004_20230810124138__DSR-83 Doctors, Ratings, Locations \u0026 Countries table.sql",
+          "executionTime": 604
+        },
+        {
+          "category": "Versioned",
+          "version": "005.20230811131217",
+          "description": "DSR-36 Specialties Mock Data Script",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V005_20230811131217__DSR-36 Specialties Mock Data Script.sql",
+          "executionTime": 16
+        }
+      ],
+      "migrationsExecuted": 2,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `doc_connect_db` may not be reproducible."
+      ],
+      "timestamp": "2023-08-21T09:04:21.539628800",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "005.20230811131217",
+      "targetSchemaVersion": "006.20230822160016",
+      "schemaName": "doc_connect_db",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "006.20230822160016",
+          "description": "DSR-163 Adds missing fields to Doctor (Name and Image URL)",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V006_20230822160016__DSR-163 Adds missing fields to Doctor (Name and Image URL).sql",
+          "executionTime": 308
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `doc_connect_db` may not be reproducible."
+      ],
+      "timestamp": "2023-08-24T00:46:12.353473100",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "006.20230822160016",
+      "targetSchemaVersion": "007.20230828181541",
+      "schemaName": "doc_connect_db",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "007.20230828181541",
+          "description": "DSR-142 Create Fake Users for the App",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V007_20230828181541__DSR-142 Create Fake Users for the App.sql",
+          "executionTime": 487
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `doc_connect_db` may not be reproducible."
+      ],
+      "timestamp": "2023-08-29T09:35:31.017998800",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "007.20230828181541",
+      "targetSchemaVersion": null,
+      "schemaName": "doc_connect_db",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": false,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `doc_connect_db` may not be reproducible."
+      ],
+      "timestamp": "2023-08-29T09:38:27.425383300",
+      "operation": "migrate",
+      "exception": "Migration V008_20230829133701__DSR-166 Add address field to doctors table.sql failed\n------------------------------------------------------------------------------------\nSQL State  : 42000\nError Code : 1101\nMessage    : (conn\u003d52) BLOB, TEXT, GEOMETRY or JSON column \u0027doctor_address\u0027 can\u0027t have a default value\nLocation   : migrations\\V008_20230829133701__DSR-166 Add address field to doctors table.sql (C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V008_20230829133701__DSR-166 Add address field to doctors table.sql)\nLine       : 3\nStatement  : -- DSR-166 Add missing field to Doctor (Address: pshysical direction of the doctors building)\r\n\r\nALTER TABLE doctors\r\nADD doctor_address text NOT NULL\r\nDEFAULT \u0027791 Crist Parks\u0027\n",
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "007.20230828181541",
+      "schemaName": "doc_connect_db",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "001.20230804164825",
+          "description": "DSR-33 Added Specialties Table ",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V001_20230804164825__DSR-33 Added Specialties Table .sql",
+          "executionTime": 99
+        },
+        {
+          "category": "Versioned",
+          "version": "002.20230804172031",
+          "description": "Added SQL Tables for AspNet Users",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V002_20230804172031__Added SQL Tables for AspNet Users.sql",
+          "executionTime": 698
+        },
+        {
+          "category": "Versioned",
+          "version": "003.20230807140320",
+          "description": "DSR-34 Grant Initial Privileges to Read and Write Roles",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V003_20230807140320__DSR-34 Grant Initial Privileges to Read and Write Roles.sql",
+          "executionTime": 148
+        },
+        {
+          "category": "Versioned",
+          "version": "004.20230810124138",
+          "description": "DSR-83 Doctors, Ratings, Locations \u0026 Countries table",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V004_20230810124138__DSR-83 Doctors, Ratings, Locations \u0026 Countries table.sql",
+          "executionTime": 475
+        },
+        {
+          "category": "Versioned",
+          "version": "005.20230811131217",
+          "description": "DSR-36 Specialties Mock Data Script",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V005_20230811131217__DSR-36 Specialties Mock Data Script.sql",
+          "executionTime": 10
+        },
+        {
+          "category": "Versioned",
+          "version": "006.20230822160016",
+          "description": "DSR-163 Adds missing fields to Doctor (Name and Image URL)",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V006_20230822160016__DSR-163 Adds missing fields to Doctor (Name and Image URL).sql",
+          "executionTime": 157
+        },
+        {
+          "category": "Versioned",
+          "version": "007.20230828181541",
+          "description": "DSR-142 Create Fake Users for the App",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V007_20230828181541__DSR-142 Create Fake Users for the App.sql",
+          "executionTime": 44
+        }
+      ],
+      "migrationsExecuted": 7,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `doc_connect_db` may not be reproducible."
+      ],
+      "timestamp": "2023-08-29T09:45:38.860307500",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "007.20230828181541",
+      "targetSchemaVersion": "008.20230829134629",
+      "schemaName": "doc_connect_db",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "008.20230829134629",
+          "description": "DSR-166 Add address field to the doctors table",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V008_20230829134629__DSR-166 Add address field to the doctors table.sql",
+          "executionTime": 103
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `doc_connect_db` may not be reproducible."
+      ],
+      "timestamp": "2023-08-29T09:47:48.571383500",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "008.20230829134629",
+      "targetSchemaVersion": "010.20230904121024",
+      "schemaName": "doc_connect_db",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "008.20230829134018",
+          "description": "DSR-173 Add administration name to the cities",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V008_20230829134018__DSR-173 Add administration name to the cities.sql",
+          "executionTime": 182
+        },
+        {
+          "category": "Versioned",
+          "version": "009.20230829150229",
+          "description": "DSR-86 Create doctor\u0027s profile mock data",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V009_20230829150229__DSR-86 Create doctor\u0027s profile mock data.sql",
+          "executionTime": 131
+        },
+        {
+          "category": "Versioned",
+          "version": "010.20230904121024",
+          "description": "DSR-180 Create database schema for appointments",
+          "type": "SQL",
+          "filepath": "C:\\Users\\Acer\\Desktop\\MMU\\gitlab\\demo\\backend\\back-end\\database\\migrations\\V010_20230904121024__DSR-180 Create database schema for appointments.sql",
+          "executionTime": 258
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "doc_connect_db",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `doc_connect_db` may not be reproducible."
+      ],
+      "timestamp": "2023-09-11T08:57:34.474930300",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}

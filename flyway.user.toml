@@ -1,0 +1,6 @@
+[environments.target1]
+url = "jdbc:mysql://localhost:3306/doc_connect_db"
+user = "root"
+password = "${localSecret.Flyway Desktop cae5580b-7e2d-40aa-9c5d-5ab5e09b30b1}"
+schemas = [ "doc_connect_db" ]
+displayName = "doc_connect_db"
